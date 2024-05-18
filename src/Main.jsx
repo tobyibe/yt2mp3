@@ -50,8 +50,8 @@ const Main = () => {
             <button className='px-2 py-1 dark:bg-blue-600 dark:hover:bg-blue-800 rounded-lg bg-slate-300 hover:bg-slate-400 transition-all' onClick={query}>Convert</button>            
         </form>
         <p>{statusMessage}</p>
-        <a href={downloadUrl} className='w-96'> 
-            <img src={thumbNail} className=' w-full rounded-lg shadow-2xl hover:scale-105 transition-all' />
+        <a href={downloadUrl} className='sm:w-1/2 w-72'> 
+            <img src={thumbNail} className='w-full rounded-lg shadow-2xl hover:scale-105 transition-all' />
         </a>
      
 
